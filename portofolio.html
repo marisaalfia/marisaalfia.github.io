@@ -1,6 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <style>
+    /* NAVBAR */
+        body {
+          margin: 0;
+        }
+
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: rgb(16, 148, 141);
+          position: fixed;
+          top: 0;
+          width: 100%;
+          font-family: Georgia;
+        }
+
+        li {
+          float: right;
+        }
+
+        li a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 20px 20px;
+          text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+          background-color: #111;
+        }
+
+        /* .active {
+          background-color: #04aa6d; */
+        /* } */
+</style>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,10 +46,17 @@
     <title>Portofolio</title>
   </head>
   <body class="background">
-    <h1 style="font-family:'Georgia'; text-align: center">Marisa Alfia Suciati</h1>
+      <ul>
+        <li><a href="#contact">Kontak</a></li>
+        <li><a href="#skills">Skill</a></li>
+        <li><a href="#experience">Pengalaman</a></li>
+        <li><a href="#about">Tentang Saya</a></li>
+      </ul>
+    <h1 class="nama">Marisa Alfia Suciati</h1>
     <center><img src="marisa.jpeg" alt="fotoku" height="300" width="250" /></center>
     <center>
         <br>
+        <section id="about"></section>
         <h1>Tentang Saya</h1>
       <table border="3">
         <tr>
@@ -27,6 +72,7 @@
 
 <center>
   </body>
+  <section id="experience"></section>
     <h1>Pengalaman</h1>
     <table border="3">
       <tr class="table2">
@@ -41,6 +87,7 @@
     </table
   </center>
   <center>
+    <section id="skills"></section>
     <h1>Skill</h1>
     <table border="3">
       <tr class="table3">
@@ -53,10 +100,11 @@
       </tr>
     </table>
   </center>
+  <section id="contact"></section>
   <h1>Kontak</h1>
     <a href="https://wa.me/6285755446443">Whatsapp ||</a>
     <a href="https://instagram.com/marisauchie23?igshid=YmMyMTA2M2Y=">Instagram ||</a>
     <a href="https://github.com/marisaalfia">Github ||</a>
-    <a href="portofolio.html">Portofolio</a>
+    <a href="index.html">Biodata</a>
   
 </html>
