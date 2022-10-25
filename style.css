@@ -2,81 +2,76 @@
 .background1 {
   background-color: rgb(202, 183, 12);
 }
+.navbar {
+  background-color: rgb(175, 164, 7);
+}
+.fotoku {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
 
-.nama {
-  padding-top: 10px;
-  font-size: 50;
+.title {
+  font-family: "Quicksand", sans-serif;
+  margin-top: 15px;
   color: rgb(66, 66, 62);
 }
 
-.foto {
-  padding-bottom: 10px;
-  padding-top: 10px;
-  width: 200px;
-  height: 250px;
-  margin-left: 10px;
+#gambar {
+  height: 65vh;
 }
 
-.saya {
+#teks {
   color: rgb(92, 92, 85);
-  font-family: georgia;
-  margin-left: 10px;
-}
-.saya1 {
-  margin-left: 10px;
-  text-align: justify;
-  font-family: georgia;
-  font-size: 50;
-}
-.keahlian {
-  margin-left: 10px;
   padding-top: 10px;
+  font-family: "Quicksand", sans-serif;
+}
+
+#keahlian {
   color: rgb(92, 92, 85);
-  font-family: georgia;
+  padding-top: 10px;
+  font-family: "Quicksand", sans-serif;
 }
 .keahlian1 {
-  font-family: georgia;
+  font-family: "Quicksand", sans-serif;
   font-size: 50;
 }
 
-.pendidikan {
-  margin-left: 10px;
+#education {
   color: rgb(92, 92, 85);
   padding-top: 10px;
-  font-family: georgia;
+  font-family: "Quicksand", sans-serif;
+}
+.pendidikan {
+  color: rgb(92, 92, 85);
+  padding-top: 10px;
+  font-family: "Quicksand", sans-serif;
 }
 .pendidikan1 {
-  font-family: georgia;
-  font-size: 50;
+  color: rgb(92, 92, 85);
+  padding-top: 10px;
+  font-family: "Quicksand", sans-serif;
 }
 
 .kontak {
-  margin-left: 10px;
-  font-family: georgia;
+  font-family: "Quicksand", sans-serif;
   padding-top: 10px;
   color: rgb(92, 92, 85);
 }
 .kontak1 {
-  margin-left: 10px;
-  font-family: georgia;
+  font-family: "Quicksand", sans-serif;
 }
 .kontak2 {
-  margin-left: 10px;
-  font-family: georgia;
+  font-family: "Quicksand", sans-serif;
 }
 .kontak3 {
-  margin-left: 10px;
-  font-family: georgia;
+  font-family: "Quicksand", sans-serif;
 }
 .kontak4 {
-  margin-left: 10px;
-  font-family: georgia;
+  font-family: "Quicksand", sans-serif;
 }
 
-.list {
-  padding-top: 10px;
-}
-
+/* ------------------------------------------------------------------------------------------------------ */
 /*CSS PORTOFOLIO*/
 .background {
   background-color: rgb(112, 209, 196);
